@@ -23,7 +23,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 11vh;
+        height: 9vh;
         z-index: 9990;
         backdrop-filter: blur(8px);
         background-color:  rgb(252, 252, 252);
