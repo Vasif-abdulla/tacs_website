@@ -1,0 +1,52 @@
+.sliderContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 25vw; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* Optional background */
+  
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: calc(100% * 4); /* Width accommodates all images */
+}
+
+.slide {
+  flex: 0 0 calc(100% / 4); /* Each slide takes up 1/3 of the container width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; /* Remove gap between images */
+  padding: 0
+}
+
+.slide img {
+  width: 90%; /* Slightly smaller than the container for spacing */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px; /* Optional rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+/* Mobile view adjustments */
+@media only screen and (max-width: 880px) {
+  .slide {
+    flex: 0 0 100%; 
+  }
+
+  .slide img {
+    width: 80%; 
+    height: auto;
+  }
+
+  .sliderContainer {
+    height: auto;
+  }
+}
+
+  

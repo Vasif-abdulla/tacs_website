@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="logo1.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="" />
+  <link rel="apple-touch-icon" href="logo1.png" />
+  <meta name="keywords" content="">
+  <meta name="robots" content="index, follow">
+  <link rel="preload" as="image" href="/src/assets/4.jpg">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+  <title>TACS MEA</title>
+  <style>
+    #overlay {
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      left: 0;
+      gap: 10px;
+    }
+
+    #overlay::-webkit-scrollbar {
+      display: none;
+      color: white;
+    }
+
+    #overlay img {
+      width: 300px;
+      height: auto;
+    }
+
+    
+@media only screen and (max-width: 880px) {
+  #overlay img {
+      width: 50vw;
+      height: auto;
+    }
+}
+
+    .loader {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      display: block;
+      margin: 15px auto;
+      position: relative;
+      top: -18%;
+      color: #000000;
+      box-sizing: border-box;
+      animation: animloader 2s linear infinite;
+    }
+
+    @keyframes animloader {
+      0% {
+        box-shadow: 14px 0 0 -2px, 38px 0 0 -2px, -14px 0 0 -2px, -38px 0 0 -2px;
+      }
+
+      25% {
+        box-shadow: 14px 0 0 -2px, 38px 0 0 -2px, -14px 0 0 -2px, -38px 0 0 2px;
+      }
+
+      50% {
+        box-shadow: 14px 0 0 -2px, 38px 0 0 -2px, -14px 0 0 2px, -38px 0 0 -2px;
+      }
+
+      75% {
+        box-shadow: 14px 0 0 2px, 38px 0 0 -2px, -14px 0 0 -2px, -38px 0 0 -2px;
+      }
+
+      100% {
+        box-shadow: 14px 0 0 -2px, 38px 0 0 2px, -14px 0 0 -2px, -38px 0 0 -2px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="overlay">
+    <img src="./logo1.png" alt="Logo">
+    <span class="loader"></span>
+  </div>
+  <div id="root"></div>
+
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    $(window).on('load', function () {
+      var images = $('#root img');
+      var imagePromises = [];
+
+      images.each(function () {
+        var img = $(this);
+        var imagePromise = new Promise(function (resolve, reject) {
+          img.on('load', resolve);
+          img.on('error', reject);
+
+          // Trigger the load event for cached images
+          if (img[0].complete) {
+            resolve();
+          }
+        });
+
+        imagePromises.push(imagePromise);
+      });
+
+      Promise.all(imagePromises).then(function () {
+        setTimeout(function() {
+          $('#overlay').fadeOut();
+        }, 2000); // Wait for 2 seconds
+      }).catch(function () {
+        setTimeout(function() {
+          $('#overlay').fadeOut(); // Optionally handle image load errors
+        }, 2000); // Wait for 2 seconds
+      });
+    });
+  </script>
+</body>
+
+</html>

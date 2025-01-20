@@ -1,0 +1,137 @@
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: auto; */
+    padding: 2rem 5vw;
+    width: 100vw;
+    border-top: 1px solid rgba(255, 98, 0, 0.09);
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+
+.row{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 880px) {
+    .row{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 5vh;
+    }
+}
+
+
+.creditRow{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 880px) {
+    .creditRow{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        align-items: center;
+        
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.col1{
+    flex: 6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.col2{
+    flex: 3;
+    display: flex;
+    /* margin-top: 10rem; */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4vh;
+}
+
+@media only screen and (max-width: 880px) {
+    .col2{
+        flex: 3;
+        display: flex;
+        /* margin-top: 10rem; */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1vh;
+    }
+}
+
+.wrapCol{
+    flex: 6;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.linkBox{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1vh;
+}
+
+.logo{
+    width: 15rem;
+}
+
+.hr{
+    height: 1px;
+    background-color: orange;
+}
+
+.link {
+    text-transform: capitalize;
+  position: relative; /* Original link color */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Thickness of the progress line */
+    background-color: #f78c40; /* Color of the progress line */
+    transition: width 0.3s ease; /* Smooth width transition */
+  }
+  
+  .link:hover {
+    color: #f78c40; /* New link color on hover */
+  }
+  
+  .link:hover::before {
+    width: 100%; /* Expand the width to full on hover */
+  }

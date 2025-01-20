@@ -1,0 +1,97 @@
+.container {
+    width: 100vw;
+    margin-top: 10vh;
+    padding: 2.4rem 5vw;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100vw;
+        margin-top: 10vh;
+        padding: 1rem 5vw 5vh;
+        height: auto;
+    }
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+@media only screen and (max-width: 600px) {
+   
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+}
+
+.title {
+    font-size: 2vw;
+    font-weight: 600;
+    color: #f78c40;
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 7vw;
+        font-weight: 600;
+        color: #f78c40;
+    }
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw; /* Ensure spacing between items */
+}
+
+.wrap {
+    flex: 1 1 calc(33.33% - 2vw); /* Three items per row, accounting for the gap */
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.042);
+    min-width: 250px; /* Ensure a minimum width to maintain readability on smaller screens */
+    max-width: 450px;
+
+}
+
+@media only screen and (max-width: 880px) {
+    .wrap {
+        flex: 1 1 calc(50% - 2vw); /* Two items per row */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wrap {
+        flex: 1 1 100%; /* One item per row */
+    }
+}
+
+
+.readMoreBtn {
+    background-color: #f78c40;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: flex-end; 
+}
+
+.readMoreBtn:hover {
+    background-color: #e67c30;
+}

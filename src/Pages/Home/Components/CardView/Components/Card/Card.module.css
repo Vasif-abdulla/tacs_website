@@ -1,0 +1,64 @@
+.container{
+    padding: 3rem;
+    display: flex;
+   flex: 3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #f78c4056;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.container:hover .icon {
+    color: #f78c40; 
+    transform: rotateY(180deg); /* Rotate the icon horizontally */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.icon {
+    font-size: 3vw;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+
+@media only screen and (max-width: 880px) {
+    .icon {
+        font-size: 11vw;
+        transition: transform 0.3s ease; /* Add transition for smooth effect */
+    }
+}
+
+.title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 880px) {
+    .title{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
+
+.container:hover .title {
+    color: #f78c40; /* Change to your desired color */
+}
+
+.desc{
+    font-size: 1rem;
+    text-align: center;
+}

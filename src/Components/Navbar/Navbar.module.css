@@ -1,0 +1,218 @@
+
+.navbarContainer {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5vw;
+    height: 11vh;
+    z-index: 9990;
+    backdrop-filter: blur(8px);
+    background-color:  rgb(252, 252, 252);
+    top: 0;
+}
+
+@media only screen and (max-width: 880px) {
+    .navbarContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 9vh;
+        z-index: 9990;
+        backdrop-filter: blur(8px);
+        background-color:  rgb(252, 252, 252);
+        border-bottom: 1px solid #f78c4028;
+    }  
+}
+
+
+.navbarWrapper {
+    display: flex;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 880px) {
+    .navbarWrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+}
+
+.navRow {
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarLeft {
+    flex: 2;
+}
+
+@media only screen and (max-width: 880px) {
+    .navbarLeft {
+        flex: 6;
+    }
+}
+
+.navbarCenter {
+    flex: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+}
+
+
+@media only screen and (max-width: 880px) {
+    .navbarCenter {
+        display: none;
+    }
+}
+
+.navbarRight {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+@media only screen and (max-width: 880px) {
+    .navbarRight {
+        flex: 6;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .join {
+        display: none;
+    }
+}
+
+.logo {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.linkName{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.join{
+    padding: 0.8rem;
+    background-color: #f78c40;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.moreIcon{
+    display: none;
+}
+
+@media only screen and (max-width: 880px) {
+    .moreIcon{
+        display: block;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+}
+
+.drawer{
+    display: none;
+}
+
+@media only screen and (max-width: 880px) {
+    .drawer {
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(252, 252, 252);
+        height: 95vh;
+        /* margin-top: 10vh; */
+        width: 100vw;
+        position: relative;
+        padding: 5vw;
+    }
+}
+
+.mobileWrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+    gap:2vh ;
+    position: relative;
+}
+
+.mobileNavbarLinkBox{
+    display: flex;
+    /* padding: 1rem 0; */
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hr{
+    width: 100%;
+    height: 1px;
+    background: #f78c4028;
+}
+
+.mobileJoin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #f78c40;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.mobilelinkName{
+    display: flex;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.credits{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
+
+.credit{
+    font-size: 0.8rem;
+}

@@ -1,0 +1,92 @@
+.bannerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    z-index: 1;
+    height: 90vh;
+    background: linear-gradient(to bottom, #13151778, #13151778), url('../../../../assets/4.jpg') center/cover no-repeat;
+    margin-top: 11vh;
+    position: relative;
+}
+
+@media only screen and (max-width: 880px) {
+    .bannerContainer{
+        width: 100vw;
+        height: 93vh;
+        z-index: -1;
+        background: linear-gradient(to bottom, #13151778, #13151778), url('../../../../assets/4.jpg') center/cover no-repeat;
+        margin-top: 9vh;
+        position: relative;
+        overflow: hidden;
+        /* animation: scrollLeftRight 20s linear infinite;  */
+    }
+}
+
+/* Define the keyframes for the scroll animation */
+@keyframes scrollLeftRight {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.bannerImg{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin-top: -8px;
+}
+
+.dataBox{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    width: 70%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.448);
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 880px) {
+    .dataBox{
+        top: 40%;
+        width: 95vw;
+        padding: 2rem;
+    }
+}
+
+.bannerTitle{
+    font-size: 3vw;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media only screen and (max-width: 880px) {
+    .bannerTitle{
+        font-size: 6vw;
+        font-weight: 800;
+        color: #fff;
+    }
+}
+
+.subTitle{
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #fff;
+}
+
+@media only screen and (max-width: 880px) {
+    .subTitle{
+        font-size: 3.5vw;
+        font-weight: 400;
+        color: #fff;
+    }
+}
