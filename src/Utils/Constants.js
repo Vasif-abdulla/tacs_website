@@ -311,7 +311,7 @@ export const OtherLinks = [
         link:"https://www.meaec.edu.in/",
     },
     {
-        title:"IEE MEA SB",
+        title:"IEEE MEA SB",
         link:"https://ieeemeasb.org/",
     },
     
