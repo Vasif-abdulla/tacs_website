@@ -5,7 +5,7 @@ import { Footer } from "../../Components/Footer/Footer";
 const ChildSafety = () => {
   return (
     <>
-    <Nav/>
+    <Navbar/>
         <div style={styles.container}>
         <h1 style={styles.title}>Child Safety Standards</h1>
 
