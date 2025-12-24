@@ -5,7 +5,7 @@ import { Footer } from "../../Components/Footer/Footer";
 const ChildSafety = () => {
   return (
     <>
-    <Navbar/>
+    <Nav/>
         <div style={styles.container}>
         <h1 style={styles.title}>Child Safety Standards</h1>
 
@@ -46,6 +46,7 @@ const ChildSafety = () => {
 
 const styles = {
   container: {
+    marginTop: "80px",
     maxWidth: "800px",
     margin: "40px auto",
     padding: "20px",
