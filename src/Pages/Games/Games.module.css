@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+.container {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background-color: #0b0f19;
+  /* Midnight Blue */
+  background-image:
+    radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
+  background-attachment: fixed;
+  font-family: 'Crimson Text', serif;
+  color: #e0d0b0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Floating Candles / Stars Layer */
+.container::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image:
+    radial-gradient(2px 2px at 50px 200px, rgba(255, 255, 255, 0.8), transparent),
+    /* Star 1 */
+    radial-gradient(2px 2px at 100px 80px, rgba(255, 255, 255, 0.8), transparent),
+    /* Star 2 */
+    radial-gradient(3px 10px at 150px 150px, rgba(255, 215, 0, 0.6), transparent),
+    /* Candle 1 Glow */
+    radial-gradient(3px 10px at 300px 100px, rgba(255, 215, 0, 0.6), transparent),
+    /* Candle 2 Glow */
+    radial-gradient(2px 2px at 400px 300px, rgba(255, 255, 255, 0.8), transparent),
+    /* Star 3 */
+    radial-gradient(3px 10px at 550px 180px, rgba(255, 215, 0, 0.6), transparent);
+  /* Candle 3 Glow */
+  background-repeat: repeat;
+  background-size: 600px 600px;
+  opacity: 0.8;
+  animation: magicFloat 10s infinite alternate ease-in-out;
+}
+
+@keyframes magicFloat {
+  0% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: translateY(-10px);
+    opacity: 0.9;
+  }
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 0 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 4rem;
+  color: #ffd700;
+  /* Gold */
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.4), 2px 2px 4px black;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #bdbdbd;
+  text-shadow: 1px 1px 2px black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.card {
+  background: linear-gradient(135deg, #fffdf5 0%, #f3e5ab 100%);
+  /* Maintain parchment Contrast */
+  border: 4px double #4a3b2b;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 1px solid #d7ccc8;
+  pointer-events: none;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.9), 0 0 15px rgba(255, 215, 0, 0.3);
+  background: #fff;
+  border-color: #d4af37;
+  z-index: 10;
+}
+
+.gameTitle {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #2b1b17;
+  text-shadow: none;
+}
+
+.registerText {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #5d4037;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-top: 2px solid #5d4037;
+  border-bottom: 2px solid #5d4037;
+  padding: 8px 15px;
+  margin-top: auto;
+  background-color: rgba(93, 64, 55, 0.05);
+}
+
+.waxSeal {
+  position: absolute;
+  bottom: -15px;
+  right: -10px;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle at 30% 30%, #b71c1c, #8a0e0e);
+  border-radius: 50%;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e8cfa6;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Cinzel Decorative', cursive;
+  transform: rotate(-15deg);
+  border: 2px solid #500000;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}

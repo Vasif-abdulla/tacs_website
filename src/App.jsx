@@ -10,6 +10,7 @@ import { OfficeBearers } from "./Pages/OfficeBearers/OfficeBearers";
 import { Gallery } from "./Pages/Gallery/Gallery";
 import { Contact } from "./Pages/Contact/Contact";
 import { PrivacyPolicy } from "./Pages/PrivacyPolicy/PrivacyPolicy";
+import { Games } from "./Pages/Games/Games";
 
 function App() {
   const router = createBrowserRouter([
@@ -48,6 +49,10 @@ function App() {
     {
       path: "/privacy&policy",
       element: <PrivacyPolicy />,
+    },
+    {
+      path: "/games",
+      element: <Games />,
     },
   ]);
   return <RouterProvider router={router} />;

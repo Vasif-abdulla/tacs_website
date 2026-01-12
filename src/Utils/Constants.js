@@ -1,37 +1,44 @@
 import mrsrajeena from '../assets/execom/mrsrajeena.png'
-import Ashmal from '../assets/execom/ashmal.png'
-import Riya from '../assets/execom/Riya.png'
-import Shahma from '../assets/execom/Shahma.png'
-import Nufail from '../assets/execom/Nufail.png'
-import Aflah from '../assets/execom/Aflah.png'
-import Shahinsh from '../assets/execom/Shahinsh.png'
-import Asheeq from '../assets/execom/Asheeq.png'
-import Vasif from '../assets/execom/vasif.png'
-import Sayed from '../assets/execom/Sayed.png'
-import Nihal from '../assets/execom/Nihal.png'
-import Jasim from '../assets/execom/Jasim.png'
-import Unais from '../assets/execom/Unais.png'
-import Hajira from '../assets/execom/Hajira.png'
-import Minhaj from '../assets/execom/Minhaj.png'
-import Shijah from '../assets/execom/Shijah.png'
-import Ahaan from '../assets/execom/Ahann.png'
-import Fanoon from '../assets/execom/Fanoon.png'
-import Jinsha from '../assets/execom/Jinsha.png'
-import Ajith from '../assets/execom/Ajith.png'
-import Dishan from '../assets/execom/Dishan.png'
 import Anas from '../assets/execom/Anas.png'
-import Haneen from '../assets/execom/Haneen.png'
-import Liyana from '../assets/execom/Liyana.png'
-import Hanna from '../assets/execom/Hanna.png'
-import Mizna from '../assets/execom/Mizna.png'
-import Ajna from '../assets/execom/Ajna.png'
-import Shafinaz from '../assets/execom/Shafinaz.png'
-import Ayra from '../assets/execom/Ayra.png'
-import Shahana from '../assets/execom/Shahana.png'
 import Jasmine from '../assets/execom/Jasmine.png'
+import Riya from '../assets/execom/Riya.png'
+import Liyanapk from '../assets/execom/Liyanapk.png'
+import Nufail from '../assets/execom/Nufail.png'
+import Fazil from '../assets/execom/FAZIL.png'
+import Basim from '../assets/execom/BASIM.png'
+import Nihal from '../assets/execom/Nihal.png'
+import Vasif from '../assets/execom/vasif.png'
+import Shadan from '../assets/execom/Shadan.png'
+import Safa from '../assets/execom/Safa.png'
+import Fanoon from '../assets/execom/Fanoon.png'
+import Bajeel from '../assets/execom/bajeel.png'
+import Afnan from '../assets/execom/Afnan.png'
+import Abhi from '../assets/execom/Abhijith.png'
+import Rita from '../assets/execom/Rita.png'
+import Sahil from '../assets/execom/Sahil.png'
+import Anasp from '../assets/execom/Anasp.png'
+import Adil from '../assets/execom/Adil.png'
+import Bhanu from '../assets/execom/Bhanu.png'
+import Haneen from '../assets/execom/Haneen.png'
+import Liyanank from '../assets/execom/Liyanank.png'
+import Ayisha from '../assets/execom/ayisha.png'
+import Reefa from '../assets/execom/Reefa.png'
+import Abid from '../assets/execom/Abid.png'
+import Aghil from '../assets/execom/aghil.png'
+import Ajna from '../assets/execom/Ajna.png'
+import Rushda from '../assets/execom/Rushda.png'
+import Shanidh from '../assets/execom/Shanidh.png'
+import Jinsha from '../assets/execom/Jinsha.png'
+import Hala from '../assets/execom/Hala.png'
+import Musthafa from  '../assets/execom/Musthafa.png'
+import Hiba from '../assets/execom/Hiba.png'
+import Adnan from '../assets/execom/adnan.png'
 import Shareef from '../assets/execom/Shareef.png'
-
-
+import Arjun from '../assets/execom/arjun.png'
+import Gina from '../assets/execom/gina.png'
+import Noora from '../assets/execom/noora.png'
+import Razi from '../assets/execom/Razi.png'
+import Labeeb from '../assets/execom/Labeeb.png'
 export const Execom24 =  [
     {
               name: "Mrs. Rajeena M",
@@ -40,202 +47,257 @@ export const Execom24 =  [
               linkedin: ""
           },
           {
-              name: "Ashmal M",
+              name: "Muhammed Anas",
               designation: "Student Coordinator",
-              image: Ashmal,
-              linkedin: "https://www.linkedin.com/in/ashmal-m-387145296/",
+              image: Anas,
+              linkedin: "https://www.linkedin.com/in/anas/",
+          },
+          {
+              name: "Jasmine",
+              designation: "Asst. Student Coordinator",
+              image:Jasmine,
+              linkedin: "https://www.linkedin.com/in/jasmine/",
+
           },
           {
               name: "Riya fathima",
-              designation: "Asst. Student Coordinator",
+              designation: "Secretary",
               image:Riya,
               linkedin: "https://www.linkedin.com/in/riya-fathima-a8bab2257/",
-
           },
           {
-              name: "Shahma KP",
-              designation: "Secretary",
-              image:Shahma,
-              linkedin: "https://www.linkedin.com/in/shahma-kp-722907233/",
-          },
-          {
-              name: "Nufail Abdulla Malayil",
+              name: "FATHIMA LIYANA PK ",
               designation: "Joint Secretary",
-              image: Nufail,
-              linkedin: "https://www.linkedin.com/in/nufail-abdulla-b209b0257/",
+              image: Liyanapk,
+              linkedin: "https://www.linkedin.com/in/fathima-liyana-pk/",
           },
   
           {
-              name: "Mohamed Aflah",
+              name: "Nufail Abdulla Malayil",
               designation: "Treasurer",
-              image:Aflah,
-              linkedin: "https://www.linkedin.com/in/mohammed-aflah/",
+              image:Nufail,
+              linkedin: "https://www.linkedin.com/in/nufail-abdulla-malayil/",
           },
-          
+           {
+              name: "FAZIL NAZR V A ",
+              designation: "Asst. Treasurer",
+              image:Fazil,
+              linkedin: "https://www.linkedin.com/in/nufail-abdulla-malayil/",
+          },
           {
-              name: "Shahinsh p",
+              name: "Muhammed Basim P",
+              designation: "Program Committee Lead",
+              image:Basim,
+              linkedin: "https://www.linkedin.com/in/minhaj-akavalappil-34b55b326/",
+          },
+          {
+              name: "Nihal k",
               designation: "Technical Team Lead",
-              image:Shahinsh,
+              image:Nihal,
               linkedin: "https://www.linkedin.com/in/shahinsh-p-830aa0241/",
 
           },
-                  
           {
-              name: "Asheeq Akthar C",
+              name: "Vasif Abdulla P",
+              designation: "DevTACS Lead",
+              image: Vasif,
+              linkedin: "https://www.linkedin.com/in/jasim-m-28900b250/",
+          },
+          {
+              name: "Shadan PK",
+              designation: "Design Lead",
+              image: Shadan,
+              linkedin: "https://www.linkedin.com/in/shadan-pk-0b1b2b3c4d5e/",
+          },
+          {
+            name: "Aysha Safa",
+            designation: "Documentation Team Lead",
+            image: Safa,
+            linkedin: "https://www.linkedin.com/in/aysah-safa-792031234/",
+          },
+          {
+              name: "Fathima Fanoon",
+              designation: "Women in Computing Lead",
+              image: Fanoon,
+              linkedin: "https://www.linkedin.com/in/hannah-hassan-70529a231/",
+          },
+          {
+              name: "Bajeel insaf kt",
+              designation: "Media Team Lead",
+              image: Bajeel,
+              linkedin: "https://www.linkedin.com/in/hannah-hassan-70529a231/",
+          },
+          {
+              name: "MOHAMMED AFNAN T",
+              designation: "Peer to Peer  Lead",
+              image: Afnan,
+              linkedin: "https://www.linkedin.com/in/hannah-hassan-70529a231/",
+          },       
+          {
+              name: "Abijith mk",
               designation: "Technical Team Member",
-              image: Asheeq,
+              image: Abhi,
               linkedin: "https://www.linkedin.com/in/asheeqakthar/",
           },
                   
           {
-              name: "Vasif abdulla p",
+              name: "Rita Hanaan P",
               designation: "Technical Team Member",
-              image: Vasif,
+              image: Rita,
               linkedin: "https://www.linkedin.com/in/vasifabdulla/",
           },
   
           {
-              name: "Sayed Shahloob P",
+              name: "Sahil shihab",
               designation: "Technical Team Member",
-              image:Sayed,
+              image:Sahil,
               linkedin: "https://www.linkedin.com/in/sayed-shahloob-9717b5242/",
           },
-          {
-              name: "Muhammed Nihal P",
-              designation: "Technical Team Member",
-              image:Nihal,
-              linkedin: "https://www.linkedin.com/in/muhammed-nihal-parakkallil-78a518292/",
+          
 
-          },
           {
-              name: "Jasim M",
-              designation: "DevTACS Lead",
-              image: Jasim,
-              linkedin: "https://www.linkedin.com/in/jasim-m-28900b250/",
-          },
-          {
-              name: "Unais MA",
+              name: "Muhammed Anas P",
               designation: "DevTACS Team Member",
-              image: Unais,
+              image: Anasp,
               linkedin: "https://www.linkedin.com/in/unais-ma-349564229/",
 
           },
           {
-              name: "Hajira Shuhaila",
+              name: "Adil",
               designation: "DevTACS Team Member",
-              image: Hajira,
+              image: Adil,
               linkedin: "https://www.linkedin.com/in/hajira-shuhaila-768463231/",
           },
           {
-              name: "Minhaj Akavalappil",
-              designation: "Program Committee Lead",
-              image:Minhaj,
-              linkedin: "https://www.linkedin.com/in/minhaj-akavalappil-34b55b326/",
-          },
-          {
-              name: "Shijah PS",
-              designation: "Program Committee Team Member",
-              image:Shijah,
-              linkedin: "https://www.linkedin.com/in/shijah-p-s-350938241/",
-          },
-          {
-              name: "Ahaan TC",
-              designation: "Program Committee Team Member",
-              image: Ahaan,
-              linkedin: ".",
-          },
-          {
-              name: "Fathima Fanoon",
-              designation: "Program Committee Team Member",
-              image:Fanoon,
-              linkedin: "https://www.linkedin.com/in/fathima-fanoon/",
-          },
-          {
-              name: "Fathima Jinsha E",
-              designation: "Program Committee Team Member",
-              image:Jinsha,
-              linkedin: "https://www.linkedin.com/in/fathima-jinsha-1225b3302/",
+              name: "Bhanu Subash",
+              designation: "DevTACS Team Member",
+              image: Bhanu,
+              linkedin: "https://www.linkedin.com/in/unais-ma-349564229/",
 
           },
           {
-              name: "Ajith Suresh",
-              designation: "Design Lead",
-              image: Ajith,
-              linkedin: "https://www.linkedin.com/in/ajithsuresh-/",
-          },
-          {
-              name: "Muhammed Dishan.v",
-              designation: "Design Team Member",
-              image: Dishan,
-              linkedin: "https://www.linkedin.com/in/muhammed-dishan-v-5622ab234/",
-          },
-          {
-              name: "Muhammed Anas P",
-              designation: "Design Team Member",
-              image: Anas,
-              linkedin: "https://www.linkedin.com/in/anas-puthukkolli-0718a1275/",
-          },
-          {
-              name: "Mohammed Haneen P M",
-              designation: "Design Team Member",
+              name: "Haneen",
+              designation: "DevTACS Team Member",
               image: Haneen,
-              linkedin: "https://www.linkedin.com/in/mohammed-haneen-p-m-15b098248/",
+              linkedin: "https://www.linkedin.com/in/hajira-shuhaila-768463231/",
           },
           {
               name: "Liyana NK",
               designation: "Design Team Member",
-              image: Liyana,
-              linkedin: "https://www.linkedin.com/in/liyana-nk-824b40285/",
+              image: Liyanank,
+              linkedin: "https://www.linkedin.com/in/liyana-nk-5622ab234/",
           },
           {
-              name: "Hanna P",
-              designation: "Women in Computing Lead",
-              image: Hanna,
-              linkedin: "https://www.linkedin.com/in/hannah-hassan-70529a231/",
+              name: "Ayishahiba",
+              designation: "Design Team Member",
+              image: Ayisha,
+              linkedin: "https://www.linkedin.com/in/anas-puthukkolli-0718a1275/",
           },
           {
-            name: "Mizna Mehrin",
+              name: "Reefa fathima ",
+              designation: "Design Team Member",
+              image: Reefa,
+              linkedin: "https://www.linkedin.com/in/mohammed-haneen-p-m-15b098248/",
+          },
+          {
+              name: "Abid. K",
+              designation: "Design Team Member",
+              image: Abid,
+              linkedin: "https://www.linkedin.com/in/mohammed-haneen-p-m-15b098248/",
+          },                     
+          {
+              name: "Aghil P",
+              designation: "Program Committee Team Member",
+              image: Aghil,
+              linkedin: "https://www.linkedin.com/in/aghil-p-350938241/",
+          },
+          {
+              name: "Ajna PT",
+              designation: "Program Committee Team Member",
+              image: Ajna,
+              linkedin: ".",
+          },
+          {
+              name: "Ayshath Rushda ",
+              designation: "Program Committee Team Member",
+              image: Rushda ,
+              linkedin: "https://www.linkedin.com/in/fathima-fanoon/",
+          },
+          {
+              name: "Shanidh Mk",
+              designation: "Program Committee Team Member",
+              image:Shanidh,
+              linkedin: "https://www.linkedin.com/in/shanidh-mk/",
+
+          },
+          {
+            name: "Fathima jinsha",
             designation: "Women in Computing Team Member",
-            image: Mizna,
+            image: Jinsha,
             linkedin: "https://www.linkedin.com/in/miznamehrin/",
           },
           {
-            name: "Ajna PT",
+            name: "Hala Amina M ",
             designation: "Women in Computing Team Member",
-            image: Ajna,
-            linkedin: "https://www.linkedin.com/in/ajna-pt-a7a191256/",
+            image: Hala,
+            linkedin: "https://www.linkedin.com/in/hala-amina-m-1225b3302/",
           },
+
           {
-            name: "Shafinaz NP",
-            designation: "Documentation Team Lead",
-            image: Shafinaz,
-            linkedin: "https://www.linkedin.com/in/shafinaz-n-p-792031234/",
-          },
-          {
-            name: "K P Ayra Riyaz",
+            name: "Musthafa",
             designation: "Documentation Team Member",
-            image: Ayra,
+            image: Musthafa,
             linkedin: "https://www.linkedin.com/in/kp-ayra-riyaz/",
           },
           {
-            name: "Shahana Shahin P",
+            name: "Hiba Fathima M",
             designation: "Documentation Team Member",
-            image: Shahana,
+            image: Hiba,
             linkedin: "https://www.linkedin.com/in/shahanashahin/",
           },
           {
-            name: "Jasmine",
+            name: "Adhnan Shareef v",
             designation: "Documentation Team Member",
-            image: Jasmine,
+            image: Adnan,
             linkedin: "https://www.linkedin.com/in/jasmineek/",
           },
           {
-            name: "Adhnan Shareef V",
-            designation: "Documentation Team Member",
+            name: "Muhammed Shareef P",
+            designation: "Peer to Peer Team Member",
             image: Shareef,
             linkedin: "https://www.linkedin.com/in/adhnan-shareef-v-60a2b02a1/",
-          }
-      ];
+          },
+          {
+            name: "Arjun K V",
+            designation: "Peer to Peer Team Member",
+            image: Arjun,
+            linkedin: "https://www.linkedin.com/in/adhnan-shareef-v-60a2b02a1/",
+          },
+          {
+            name: "Gina ",
+            designation: "Peer to Peer Team Member",
+            image: Gina,
+            linkedin: "https://www.linkedin.com/in/adhnan-shareef-v-60a2b02a1/",
+          },          
+          {
+            name: "Noora Sali PP ",
+            designation: "Media Team Member",
+            image: Noora,
+            linkedin: "https://www.linkedin.com/in/noora-sali-pp-60a2b02a1/",
+          },
+          {
+            name: "Mohammed Razi v ",
+            designation: "Media Team Member",
+            image: Razi,
+            linkedin: "https://www.linkedin.com/in/mohammed-razi-v-60a2b02a1/",
+          },
+          {
+            name: "Ahammed Labeeb",
+            designation: "Media Team Member",
+            image: Labeeb,
+            linkedin: "https://www.linkedin.com/in/ahammed-labeeb-60a2b02a1/",
+          },                       
+        ];
 
 
 

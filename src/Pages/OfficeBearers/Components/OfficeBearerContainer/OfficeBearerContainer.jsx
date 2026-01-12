@@ -49,7 +49,7 @@ export const OfficeBearerContainer = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.row}>
-          <span className={styles.title}>Execom 2024-25</span>
+          <span className={styles.title}>Execom 2025-26</span>
         </div>
         <div className={styles.row}>
           {Execom24.slice(0, showAll ? totalCards : visibleCards).map((execom, index) => (

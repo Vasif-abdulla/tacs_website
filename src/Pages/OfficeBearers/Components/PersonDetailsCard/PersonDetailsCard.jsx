@@ -30,13 +30,13 @@ export const PersonDetailsCard = ({ execom }) => {
           </div>
           <div className={styles.row}>
             <div className={styles.socials}>
-              <a
+              {/* <a
                 href={execom?.linkedin}
                 target="_blank"
                 className={styles.link}
               >
                 <img src={logo?.linkedinLogo} alt="" className={styles.icon} />
-              </a>
+              </a> */}
               {/* <a
                 href={execom?.linkedin}
                 target="_blank"

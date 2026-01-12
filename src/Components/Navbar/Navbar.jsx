@@ -31,7 +31,7 @@ export const Navbar = () => {
           </div>
           <div className={styles.navbarRight}>
             <a
-              href="https://chat.whatsapp.com/Bb2E0Eg3otsFZU4gGG0FrB"
+              href="https://chat.whatsapp.com/LX1SqfizoqVFufHRHcNKZl"
               target="_blank"
               className={styles.linkBtn}
             >
@@ -80,7 +80,7 @@ export const Navbar = () => {
                 ))}
               </div>
               <a
-                href="https://chat.whatsapp.com/Bb2E0Eg3otsFZU4gGG0FrB"
+                href="https://chat.whatsapp.com/LX1SqfizoqVFufHRHcNKZl"
                 target="_blank"
                 className={styles.linkBtn}
               >
