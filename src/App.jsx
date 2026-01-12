@@ -10,11 +10,9 @@ import { OfficeBearers } from "./Pages/OfficeBearers/OfficeBearers";
 import { Gallery } from "./Pages/Gallery/Gallery";
 import { Contact } from "./Pages/Contact/Contact";
 import { PrivacyPolicy } from "./Pages/PrivacyPolicy/PrivacyPolicy";
-<<<<<<< HEAD
 import { Games } from "./Pages/Games/Games";
-=======
 import ChildSafety from "./Pages/child-safety/child-safety";
->>>>>>> 3a09f40a5f75279dd38ffdbc3c41bb62cbf6f598
+
 
 function App() {
   const router = createBrowserRouter([
@@ -55,13 +53,13 @@ function App() {
       element: <PrivacyPolicy />,
     },
     {
-<<<<<<< HEAD
       path: "/games",
       element: <Games />,
-=======
+    },
+    {
       path: "/child-safety",
       element: <ChildSafety />,
->>>>>>> 3a09f40a5f75279dd38ffdbc3c41bb62cbf6f598
+
     },
   ]);
   return <RouterProvider router={router} />;
