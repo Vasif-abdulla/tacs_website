@@ -95,7 +95,7 @@
   /* Maintain parchment Contrast */
   border: 4px double #4a3b2b;
   border-radius: 8px;
-  padding: 30px;
+  padding: 0;
   text-align: center;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -106,7 +106,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 250px;
+  min-height: auto;
+}
+
+.gameImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .card::before {
@@ -128,46 +135,7 @@
   z-index: 10;
 }
 
-.gameTitle {
-  font-family: 'Cinzel Decorative', cursive;
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-  color: #2b1b17;
-  text-shadow: none;
-}
 
-.registerText {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #5d4037;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  border-top: 2px solid #5d4037;
-  border-bottom: 2px solid #5d4037;
-  padding: 8px 15px;
-  margin-top: auto;
-  background-color: rgba(93, 64, 55, 0.05);
-}
-
-.waxSeal {
-  position: absolute;
-  bottom: -15px;
-  right: -10px;
-  width: 60px;
-  height: 60px;
-  background: radial-gradient(circle at 30% 30%, #b71c1c, #8a0e0e);
-  border-radius: 50%;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #e8cfa6;
-  font-size: 1rem;
-  font-weight: bold;
-  font-family: 'Cinzel Decorative', cursive;
-  transform: rotate(-15deg);
-  border: 2px solid #500000;
-}
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
