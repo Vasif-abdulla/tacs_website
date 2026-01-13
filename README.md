@@ -1,6 +1,6 @@
 # TACS Website
 
-Welcome to the official repository for the **TACS (Technical & Arts Cultural Society) Website**. This project is a modern, responsive web application built with **React** and **Vite**, designed to showcase our community, events, and initiatives.
+Welcome to the official repository for the **TACS (Technical Association for Cyber Streams) Website**. This project is a modern, responsive web application built with **React** and **Vite**, designed to showcase our community, events, and initiatives.
 
 ## 🚀 Features
 
