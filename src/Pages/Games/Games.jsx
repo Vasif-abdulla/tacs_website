@@ -3,8 +3,8 @@ import { Navbar } from "../../Components/Navbar/Navbar";
 import { Footer } from "../../Components/Footer/Footer";
 
 import pubgImg from "../../assets/pubg.png";
-import skribbleImg from "../../assets/skribble.png";
-import memoryGameImg from "../../assets/memorygame.png";
+import skribbleImg from "../../assets/uno.jpg";
+import memoryGameImg from "../../assets/mini.jpg";
 import efootballImg from "../../assets/efootball.png";
 import speedImg from "../../assets/speed.png";
 import quizImg from "../../assets/quiz.png";
